@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body {background:#F7F7F7 !important; padding-top: 70px;}
+
+.navbar {
+	background:#006a9c !important;
+	border-top:solid 3px #333 !important;
+	}
+
+.navbar-brand img {padding:0px 10px 10px 5px;}
+
+nav .container {background:none;}
+
+.navbar-nav > li > a {color:#fff !important;}
+
+.navbar-nav > li > a:hover {
+	color:#fff !important;
+	background:#333 !important;
+	}
+.navbar-nav > li > a:focus {
+	color:#fff !important;
+	background:#333 !important;
+	}
+
+#negative-margin {margin-top:-20px !important;}
+.white {background:#fff !important;margin:10px 0px 20px 0px;padding-bottom:10px;}
+.blue {background:#006a9c !important;margin:0px 0px 20px 0px;padding:20px 0px 0px 0px;color:#fff;}
+.white-nomarg {background:#fff !important;}
+.grey {background:#333; color:#fff !important;padding-top:10px;}
+
+@media (min-width: 1200px) {
+	.container-fluid {
+		  margin:0 auto !important;
+	}
+}
+
+.thumbnail .btn {border-radius:0px !important;}
+
+#carousel-example-generic {margin-bottom:20px;margin-top:-21px;}
+.ghost-btn{
+	
+	text-transform:uppercase;
+	font-size:1.5vw !important;
+	font-weight:bolder !important;
+	color: #F2F2F2;
+	border-radius:50% !important;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+.copyright {color:#fff;font-size:10pt;}
+.list-unstyled dl {font-weight:bold;}
+.list-unstyled li a {color:#fff;}
+
+.blue-bg {background:#006a9c !important;}
+.blue-bg h3 {color:#fff; text-transform: uppercase; font-size:14pt;}
+.blue-bg p {color:#fff;padding:1%;}
+
+.open-info {margin-top:-20px !important;border-top:2px solid #006a9c;}
+.corners {border-top-right-radius:0 !important;border-top-left-radius:0 !important;}
+
+.pjumbotron {font-size:14pt !important;}
+
+.page-header {}
+.page-header-inner {}
+.page-header h1{}
+
+.modal-header {background:#006a9c;color:#fff;}
+
+.red-btn {background:#08A985 !important;border:#078569 !important;}
+.red-btn:hover {background:#078569 !important;}
+
+#vegas {
+	background:url(../img/background/monaco.jpg) 50% 0 fixed;
+	height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+	}
+	
+.input-group {
+	margin-bottom:3%;
+}
+.no-round-corner {border-radius:0px !important;}
+.panel-default {border-radius:0px !important;}
+.contests-h1 {font-size:3em;color:#006a9c;}
+.list-contest-recent {margin-top:10px;}
+.transparent-white {background-color: rgba(255, 255, 255, 0.7);}
+.transparent-white-padding {background-color: rgba(255, 255, 255, 0.8);padding-left:2.5% !important;margin-left:7%;}
+.transparent-white1 {background-color: rgba(255, 255, 255, 0.7);}
+
+.dark-bread {background-color:rgba(0, 0, 0, 0.5) !important;border-radius:0px !important;}
+.dark-bread a{color:#FFF;}
+.dark-bread a:hover{color:#F2F2F2;}
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
